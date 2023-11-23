@@ -1,0 +1,21 @@
+.place-administration-container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.left-column {
+  width: 50%;
+  height: 100%; /* Înălțimea coloanei stângi */
+  overflow-y: scroll; /* Permite scroll pe axa verticală */
+  /* position: sticky; */
+  /* bottom: 0; */
+}
+
+.right-column {
+  /* position: relative;
+  bottom: 0px; */
+  width: 50%;
+  height: 100%; /* Înălțimea coloanei drepte */
+  overflow-y: scroll;
+}

@@ -1,0 +1,22 @@
+.register__header {
+  color: white;
+  text-align: center;
+}
+
+.register {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.register form {
+  margin-bottom: 1rem;
+}
+
+.form-allign {
+  display: flex;
+  flex-direction: column;
+}

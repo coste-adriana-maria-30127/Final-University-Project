@@ -1,0 +1,168 @@
+.label {
+  font-weight: bold;
+}
+/* .form-control {
+  margin: 1rem 0;
+  width: 100px;
+  height: 100px;
+} */
+
+.post-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  height: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}
+
+.profile-main-card {
+  width: 80%;
+  height: auto;
+  margin-top: -2px;
+}
+
+.profile-header-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 100%;
+}
+
+.cover-image-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  /* background: #0c5b64; */
+}
+
+.cover-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+
+.profile-picture-container {
+  margin-top: -80px;
+  margin-left: 40px;
+  z-index: 1;
+}
+
+.profile-picture {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.profile-details-container {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.profile-name {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.profile-location {
+  font-size: 24px;
+  color: gray;
+  margin: 0;
+}
+
+.profile-bio {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.profile-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.div-left-side {
+  width: 40%;
+  height: auto;
+}
+
+.card-personl-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-intro {
+  margin-top: -0.1px;
+}
+.button-add-bio {
+  margin: 4%;
+}
+
+.card-share-post {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* width: 40%; */
+  height: auto;
+}
+
+.div-right-side {
+  position: -webkit-sticky;
+  position: sticky;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: 40%;
+}
+
+.div-share-post {
+  display: flex;
+  margin-left: 3%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-share-post {
+  display: inline-block;
+
+  border: 1px solid #0097a7;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.div-text-share-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-share-post {
+  display: inline-block;
+  margin-left: 4%;
+}
+
+.input-share-post {
+  border: 1px solid #ccc;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.modal {
+  /* height: 90%; */
+  /* width: 80%; */
+}

@@ -1,0 +1,30 @@
+.map-place {
+  width: 100%;
+  height: 100%;
+}
+
+.div-marker {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.div-marker:hover {
+  transform: scale(1.1); /* Mărește mărimea */
+}
+
+.div-marker:active {
+  transform: scale(0.9); /* Redu mărimea la clic */
+  opacity: 0.8; /* Redu opacitatea la clic */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Adaugă tranziții pentru transform și opacitate */
+}
+
+.map-paper {
+  /* width: 70px; */
+  /* height: 100px; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+}

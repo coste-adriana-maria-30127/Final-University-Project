@@ -1,0 +1,21 @@
+.main-header-right-div {
+  display: flex;
+  align-items: center;
+  float: right;
+  justify-content: flex-end;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  background-color: rgba(169, 208, 213, 0.15);
+}
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.searchIcon {
+  pointer-events: none;
+}

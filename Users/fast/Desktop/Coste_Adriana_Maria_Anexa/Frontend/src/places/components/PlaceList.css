@@ -1,0 +1,16 @@
+.place-list {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 0;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.place-list-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.place-list-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
